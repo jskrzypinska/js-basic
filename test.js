@@ -1,8 +1,12 @@
-var youLike=false;
-var myNum = 9;
+var myAge = 46;
 
-if(myNum == 10) {
-    document.write("My numb is equel to 10");
+if (myAge > 30) {
+    document.write("you're over 30");
+} else if (myAge > 20) {
+    document.write("you're over 20");
+
+} else if (myAge > 10) {
+    document.write("you're over 10");
 } else {
-    document.write("My number is not equel to 10")
+    document.write("you're not over 10");
 }
