@@ -6,3 +6,8 @@ function getAverage (a,b, c, d, e, f) {
 
 var myResult = getAverage(7,8,9,10,11,12);
 console.log("the average is " + myResult);
+
+function logResult() {
+    console.log("the average is " + myResult + "inside the function");
+}
+logResult();
