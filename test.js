@@ -1,18 +1,27 @@
-// var string1 = "abc";
-// var string2 = "ABC";
+var myArray = new Array();
 
-// console.log(string1.toLowerCase() === string2.toLowerCase()); 
+myArray[0] = 8;
+myArray[1] = "hello";
+
+var myCar = new Object();
+myCar.maxSpeed = 50; //properities of my car 
+myCar.driver = "Asia";
+myCar.drive = function () {console.log("now im driving");};
+
+console.log(myCar.driver);
 
 
-// console.log(myString.length);
-// console.log(myString.toUpperCase());
-// console.log(myString.indexOf("string"));
+myCar.drive();
 
-// if (myString.indexOf("ninja") === -1 ) {
-//     console.log("word is not in the string");
-// } else {
-//     console.log("word ninja starts at position " + myString.indexOf("ninja"));
-// }
-  var string1 ="abc";
-  var string2 ="bcd";
-  console.log(string1 < string2);
+var myArray2 = [true,15, "hello"];
+
+var myCar2 = { 
+    maxSpeed: 40, 
+    driver: "Asia", 
+    drive: function (speed, time) {
+            console.log(speed*time);
+    } 
+};
+
+console.log(myCar2.maxSpeed);
+myCar2.drive(50,3);
