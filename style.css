@@ -1,0 +1,12 @@
+#content {
+
+    width: 400px;
+    margin: auto;
+    
+    max-height: 270px;
+    overflow: hidden;
+    
+}
+#content.open {
+    max-height: 1000px;
+}
